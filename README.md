@@ -1,4 +1,4 @@
-# StructuralBreak-KolmogorovSmirnov
+# Time-Series-Structural-Break-Detection
 
 A proposed method for detecting structural breaks in financial time series using the **two-sample Kolmogorov-Smirnov (KS) test**. Developed as part of a thesis research project.
 
@@ -30,7 +30,7 @@ This is a **non-parametric** method, meaning it makes no assumptions about the u
 
 ## Repository Structure
 ```
-StructuralBreak-KolmogorovSmirnov/
+Time-Series-Structural-Break-Detection/
 │
 ├── AMZN.xlsx                  # Amazon historical stock price data
 ├── GOOGL.xlsx                 # Google historical stock price data
@@ -68,8 +68,8 @@ pip install pandas numpy scipy matplotlib openpyxl
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/steveparakal/StructuralBreak-KolmogorovSmirnov.git
-cd StructuralBreak-KolmogorovSmirnov
+git clone https://github.com/steveparakal/Time-Series-Structural-Break-Detection.git
+cd Time-Series-Structural-Break-Detection
 ```
 
 2. **Install dependencies** (see above).
@@ -109,8 +109,8 @@ This project is licensed under the [Apache-2.0 License](LICENSE).
 
 If you use this work in your own research, please cite accordingly:
 ```
-steveparakal. (2024). StructuralBreak-KolmogorovSmirnov.
-GitHub. https://github.com/steveparakal/StructuralBreak-KolmogorovSmirnov
+steveparakal. (2024). Time-Series-Structural-Break-Detection.
+GitHub. https://github.com/steveparakal/Time-Series-Structural-Break-Detection
 ```
 
 ---
